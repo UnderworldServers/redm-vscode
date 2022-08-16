@@ -1,10 +1,10 @@
 {
-	"name": "fivem-vscode",
-	"displayName": "Fivem Natives",
-	"description": "FiveM Lua natives auto completion and signatures help",
-	"publisher": "fivem-vscode",
+	"name": "redm-vscode",
+	"displayName": "RedM Natives",
+	"description": "RedM Lua natives auto completion and signatures help",
+	"publisher": "redm-vscode",
 	"repository": {
-		"url": "https://github.com/wdesgardin/fivem-vscode",
+		"url": "https://github.com/UnderworldServers/redm-vscode",
 		"type": "git"
 	},
 	"version": "0.3.1",

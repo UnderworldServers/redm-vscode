@@ -5,7 +5,7 @@ import { SignatureHelpProvider } from "./features/signatureHelpProvider";
 import { NativeService } from "./data/nativeService";
 
 export async function activate(context: vscode.ExtensionContext) {
-	console.log("Extension fivem-vscode loading");
+	console.log("Extension redm-vscode loading");
 
 	const natives = await NativeService.getAllNatives();
 
@@ -18,7 +18,7 @@ export async function activate(context: vscode.ExtensionContext) {
 	disposable = vscode.languages.registerCompletionItemProvider("lua", new CompletionItemProvider(natives));
 	context.subscriptions.push(disposable);
 
-	console.log("Extension fivem-vscode activated !");
+	console.log("Extension redm-vscode activated !");
 }
 
 export function deactivate() {}

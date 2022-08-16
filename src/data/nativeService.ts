@@ -5,7 +5,7 @@ import { NativeParam } from "../types/nativeParam";
 import { specificFunctions } from "./specificFunctions";
 
 const documentationUrls = [
-	"https://runtime.fivem.net/doc/natives.json",
+	"https://raw.githubusercontent.com/alloc8or/rdr3-nativedb-data/master/natives.json",
 	"https://runtime.fivem.net/doc/natives_cfx.json",
 ];
 
